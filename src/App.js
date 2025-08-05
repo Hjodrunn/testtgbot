@@ -6,7 +6,7 @@ import {useTelegram} from 'src/hooks/useTelegram.js'
 const tg = window.Telegram.WebApp;
 
 function App() { 
-  const { onToggleButton } = useTelegram();
+  const { onToggleButton, tg } = useTelegram();
 
   useEffect( () => {
       tg.ready(); // приложение приинициализировалось и его можно использовать
