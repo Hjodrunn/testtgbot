@@ -3,6 +3,7 @@ import { useEffect } from 'react';
 import './App.css';
 import {useTelegram} from 'src/hooks/useTelegram.js'
 
+
 const tg = window.Telegram.WebApp;
 
 function App() { 
