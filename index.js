@@ -1,8 +1,8 @@
 // "start": "react-scripts start",
-import {token} from './token.js'
+const { token } = require('./token.js')
 const TelegramBot = require('node-telegram-bot-api');
 
-const webAppUrl = "https://yandex.ru";
+const webAppUrl = "https://endearing-arithmetic-7196cc.netlify.app/";
 
 const bot = new TelegramBot(token, {polling: true});
 
