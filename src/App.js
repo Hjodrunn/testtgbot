@@ -1,7 +1,7 @@
 // import logo from './logo.svg';
 import { useEffect } from 'react';
 import './App.css';
-import {useTelegram} from './hooks/useTelegram.js'
+import {useTelegram} from './hooks/useTelegram'
 
 
 const tg = window.Telegram.WebApp;
