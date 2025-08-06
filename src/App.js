@@ -11,7 +11,7 @@ function App() {
   const { onToggleButton, tg } = useTelegram();
 
   useEffect( () => {
-      tg.ready(); // приложение приинициализировалось и его можно использовать
+      tg.ready(); // приложение проинициализировалось и его можно использовать
  }, []);
   
   return (
